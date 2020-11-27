@@ -1,0 +1,15 @@
+{
+  "name": "Jira Board Custom Tabs",
+  "description": "",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": ["storage"],
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://mysphera.atlassian.net/secure/RapidBoard.jspa*"],
+      "css": ["tabs.css"],
+      "js": ["tabs.js"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0 10%;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+}
+
+textarea {
+  height: 150px;
+}
